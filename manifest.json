@@ -1,0 +1,19 @@
+{
+  "name": "The People's Pulse",
+  "short_name": "People's Pulse",
+  "description": "One question for the world each day. W³ / What Matters³ by Jeff SHNaZLab.",
+  "id": "/peoples-pulse/",
+  "start_url": "/peoples-pulse/?source=pwa",
+  "scope": "/peoples-pulse/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07071a",
+  "theme_color": "#07071a",
+  "categories": ["social", "news", "education"],
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"}
+  ]
+}
