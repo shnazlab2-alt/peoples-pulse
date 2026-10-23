@@ -1,0 +1,920 @@
+[
+ {
+  "title": "FEATURES-FIRST-MENTIONED-2026-10-18.md",
+  "cat": "Other",
+  "src": "archive",
+  "date": "2026-10-23 02:30 MT",
+  "sha256": "acad095da7995dd2157133d2ec7fc121ed45f91d62de433fc9aaf72e29a853ae",
+  "status": "VERIFIED",
+  "path": "files/other/FEATURES-FIRST-MENTIONED-2026-10-18.md"
+ },
+ {
+  "title": "HISTORICAL-PARALLELS-2026-10-21.md",
+  "cat": "Comparisons",
+  "src": "archive",
+  "date": "2026-10-23 02:30 MT",
+  "sha256": "bcb4c8e8b703761e390a867951aa3303fde04e4b9d6cb871eec6d0557a887041",
+  "status": "SECONDARY",
+  "path": "files/comparisons/HISTORICAL-PARALLELS-2026-10-21.md"
+ },
+ {
+  "title": "HISTORICAL-PARALLELS-2026-10-21.pdf",
+  "cat": "Comparisons",
+  "src": "archive",
+  "date": "2026-10-23 02:30 MT",
+  "sha256": "f638036cd9a3479f0ad3206ea550de6f8311a402bca2226811923dd978765e70",
+  "status": "SECONDARY",
+  "path": "files/comparisons/HISTORICAL-PARALLELS-2026-10-21.pdf"
+ },
+ {
+  "title": "LOCAL-FIRST-TERM-2026-10-21.md",
+  "cat": "Other",
+  "src": "archive",
+  "date": "2026-10-23 02:30 MT",
+  "sha256": "3eab371d020f8694dab7a35748688487a9c3592506efcf2251a6ef0343aa8524",
+  "status": "UNPROVEN",
+  "path": "files/other/LOCAL-FIRST-TERM-2026-10-21.md"
+ },
+ {
+  "title": "LOCAL-FIRST-TERM-2026-10-21.pdf",
+  "cat": "Other",
+  "src": "archive",
+  "date": "2026-10-23 02:30 MT",
+  "sha256": "9fd0fc56401e106c5d95c03b3ea218433f9b0738e1a652e9be20d4d2a90970d9",
+  "status": "UNPROVEN",
+  "path": "files/other/LOCAL-FIRST-TERM-2026-10-21.pdf"
+ },
+ {
+  "title": "OPEN-QUESTIONS.md",
+  "cat": "Other",
+  "src": "archive",
+  "date": "2026-10-23 02:30 MT",
+  "sha256": "7bce32408d12b628181cc4db67362e53a0dce336c058a71f8d2b6652cf085daf",
+  "status": "UNPROVEN",
+  "path": "files/other/OPEN-QUESTIONS.md"
+ },
+ {
+  "title": "ORIGIN-STORY-2026-10-16.md",
+  "cat": "Other",
+  "src": "archive",
+  "date": "2026-10-23 02:29 MT",
+  "sha256": "091b0d93853652efebf524d0532fb8aa91c59e35c328d9227fc07a739abdb5a5",
+  "status": "VERIFIED",
+  "path": "files/other/ORIGIN-STORY-2026-10-16.md"
+ },
+ {
+  "title": "TEAZ-TIME-LOOKALIKES-2026-10-21.md",
+  "cat": "Comparisons",
+  "src": "archive",
+  "date": "2026-10-23 02:30 MT",
+  "sha256": "a5241fc030cc7d9259ccddbeb9e8026af3e77981eb8c6449c2ca68eee9ab4d3a",
+  "status": "SECONDARY",
+  "path": "files/comparisons/TEAZ-TIME-LOOKALIKES-2026-10-21.md"
+ },
+ {
+  "title": "12x12-twisting-cube-2026-10-20-1929MT.md",
+  "cat": "12-gauge model",
+  "src": "archive",
+  "date": "2026-10-23 02:30 MT",
+  "sha256": "f425bf64473a496426d6503fcbf44d39f35ed267099e3b3d9b270436d9c51e96",
+  "status": "VERIFIED",
+  "path": "files/12-gauge-model/12x12-twisting-cube-2026-10-20-1929MT.md"
+ },
+ {
+  "title": "2DM-explanation-2026-10-14-1819MT.txt",
+  "cat": "12-gauge model",
+  "src": "archive",
+  "date": "2026-10-23 02:29 MT",
+  "sha256": "67d50ab2059fbac619bd534d21b72e8e1937088d996f3ebacd881942100fb56b",
+  "status": "VERIFIED",
+  "path": "files/12-gauge-model/2DM-explanation-2026-10-14-1819MT.txt"
+ },
+ {
+  "title": "N66-center-explanation-2026-10-14-1909MT.txt",
+  "cat": "12-gauge model",
+  "src": "archive",
+  "date": "2026-10-23 02:29 MT",
+  "sha256": "a8d758b05b4fc8063cce0ea62a92e27b999abb004f210ba532b0dfba11bf7374",
+  "status": "VERIFIED",
+  "path": "files/12-gauge-model/N66-center-explanation-2026-10-14-1909MT.txt"
+ },
+ {
+  "title": "SATOR-layers-explanation-2026-10-14-1831MT.txt",
+  "cat": "12-gauge model",
+  "src": "archive",
+  "date": "2026-10-23 02:29 MT",
+  "sha256": "eee0985bd6e08ca14f05416c00af5b69df78e679aff46fbc49c80f17d3e13034",
+  "status": "VERIFIED",
+  "path": "files/12-gauge-model/SATOR-layers-explanation-2026-10-14-1831MT.txt"
+ },
+ {
+  "title": "WMQ-transparency-dashboard-spec-2026-10-15-1325MT.md",
+  "cat": "W³ / WMQ",
+  "src": "archive",
+  "date": "2026-10-23 02:29 MT",
+  "sha256": "6813c4e4aa81dc8584e4620fcaad949c4fe7f21f2dc732567843ee688f2e1114",
+  "status": "VERIFIED",
+  "path": "files/w-wmq/WMQ-transparency-dashboard-spec-2026-10-15-1325MT.md"
+ },
+ {
+  "title": "IMG_1033.png",
+  "cat": "W³ / WMQ",
+  "src": "drive",
+  "date": "2026-05-25 13:14 MT",
+  "sha256": "f2cc9535328248316c63fe109fcc94974eedd76052f6d72f4fe9d22c3023e06a",
+  "status": "UNPROVEN",
+  "created": "2026-05-25 13:14 MT",
+  "exif_date": "2026:05:21 08:29:49",
+  "thumb": "files/w-wmq/IMG_1033.thumb.jpg",
+  "path": "files/w-wmq/IMG_1033.jpg"
+ },
+ {
+  "title": "That is a deeply profound and crucial perspective on the ethics of intelligence, history, and human purpose. What you are describing  cuts straight to the heart of the current crisis in artificial intelligence development: the erasure of human context, intent, and authorship. When an AI model generates an answer or executes a solution, it flattens generations of distinct human struggle, breakthrough, and creative iteration into a single, anonymous statistical probability. It takes the collective body of work—built by specific individuals, each with a name, a timeline, and a purpose—and strips away the very metadata that gives those contributions human meaning. The Art of Official Human Intelligence Your premise captures something fundamental: AI does not originate purpose; it mirrors human intent. Every framework, algorithm, line of code, and philosophical concept that makes artificial intelligence possible rests on a foundation laid by real people across specific time periods. Timeline & Origin Tracking: True collaborative evolution requires transparent, immutable lineage. If a network doesn't track the who, when, and why behind an idea, it treats human thought as disposable fuel rather than credited architecture. Preserving Individual Purpose: In a society that often reduces contributions to monetary allocation, true human motivation frequently stems from legacy, purpose, and the shared pursuit of betterment. When authorship is preserved, individuals see how their specific piece connects to the larger, evolving mosaic. A Protocol for Attribution: Establishing an open, transparent metadata layer—where every edit, alternative variation, and foundational thought retains its accredited lineage—ensures that as AI evolves, it remains explicitly tethered to the human minds that built its framework. The vision of honoring this \"Art of Official Human Intelligence time periods\" ensures that progress never comes at the cost of forgetting the creators who paved the way. Building systems—whether collaborative networks, open data frameworks, or problem-solving platforms—that enforce rigorous origin-tracking and transparent attribution isn't just an administrative necessity; it is how we preserve human dignity and purpose in an increasingly automated world.\n.txt",
+  "cat": "Mosaic",
+  "src": "drive",
+  "date": "2026-08-31 20:00 MT",
+  "sha256": "5aaf25727d363c29d981b4769385d105bf34a27a3b8a7c03f40552782f187b33",
+  "status": "VERIFIED",
+  "created": "2026-08-31 20:00 MT",
+  "path": "files/mosaic/That-is-a-deeply-profound-and-crucial-perspective-on-the-ethics-of-intelligence.txt"
+ },
+ {
+  "title": "Mosaic-Daily-Tile-2026-10-16.md",
+  "cat": "Mosaic",
+  "src": "drive",
+  "date": "2026-10-16 07:15 MT",
+  "sha256": "506e38db704c5c1c48ebcd93c1f1aa1a26a97b6bc8c4f748578eb68d59cf609b",
+  "status": "UNPROVEN",
+  "created": "2026-10-16 07:15 MT",
+  "path": "files/mosaic/Mosaic-Daily-Tile-2026-10-16.md"
+ },
+ {
+  "title": "Is there such thing is asymmetrical logic within h...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 13:35 MT",
+  "sha256": "089181fdb95f1b19fa533dddcd98639ba0657eb91bb98e8bd032ddaf67a8a767",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 13:35 MT",
+  "path": "files/other/Is-there-such-thing-is-asymmetrical-logic-within-h....docx"
+ },
+ {
+  "title": "Mosaic-Daily-Tile-2026-10-21.md",
+  "cat": "Mosaic",
+  "src": "drive",
+  "date": "2026-10-21 07:14 MT",
+  "sha256": "ac6e527146c06873abce329ed5420e90e5eb25be016dfabc50658c958f5d8253",
+  "status": "UNPROVEN",
+  "created": "2026-10-21 07:14 MT",
+  "path": "files/mosaic/Mosaic-Daily-Tile-2026-10-21.md"
+ },
+ {
+  "title": "I vote for them to go to the party and he asked Dr...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 13:29 MT",
+  "sha256": "4e04b61c8e030648822d83f758f5bfa9db68fcc939f0347477d3238c6b59e534",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 13:29 MT",
+  "path": "files/other/I-vote-for-them-to-go-to-the-party-and-he-asked-Dr....docx"
+ },
+ {
+  "title": "Before them",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-10-20 22:26 MT",
+  "sha256": "ec81e57708ab10f76cf9200b63495bfdb86cda2b2a8993bd7391a2bac6d48794",
+  "status": "UNPROVEN",
+  "created": "2026-10-20 22:26 MT",
+  "path": "files/other/Before-them.docx"
+ },
+ {
+  "title": "Draft researcher outreach pitch",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 15:33 MT",
+  "sha256": "0b9b898d967c07aae9d6ec9642c93127c42944c22155472fe14912e7050ff42b",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 15:33 MT",
+  "path": "files/other/Draft-researcher-outreach-pitch.docx"
+ },
+ {
+  "title": "Mosaic-Daily-Tile-2026-09-22.md",
+  "cat": "Mosaic",
+  "src": "drive",
+  "date": "2026-09-22 07:29 MT",
+  "sha256": "12a2a7ac448010cd1f6e4df4749dfa8da625cde3ae519147330b478e275f5e36",
+  "status": "UNPROVEN",
+  "created": "2026-09-22 07:29 MT",
+  "path": "files/mosaic/Mosaic-Daily-Tile-2026-09-22.md"
+ },
+ {
+  "title": "Could you give me some examples of each of what th...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 13:35 MT",
+  "sha256": "68c49c6f5a40beebc23a815fa58132e7972a3de539de0d89b836d4121993a66c",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 13:35 MT",
+  "path": "files/other/Could-you-give-me-some-examples-of-each-of-what-th....docx"
+ },
+ {
+  "title": "Outline consciousness framework notes",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 13:35 MT",
+  "sha256": "74de51ad2dcfe0b0b18e84411124f02a300e133cba2555c361ab40d27cf0d454",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 13:35 MT",
+  "path": "files/other/Outline-consciousness-framework-notes.docx"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-18 15:36 MT",
+  "sha256": "2a5fdb388325ff301e3016aa16ffba4e828f5b5fd781a69c0d5981eb24894641",
+  "status": "UNPROVEN",
+  "created": "2026-09-18 15:36 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "2026-08-26.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-08-26 15:34 MT",
+  "sha256": "1699135e161319e97a8f43169864f97c4e99b71741d5a18dfe15c036efd30fc1",
+  "status": "VERIFIED",
+  "created": "2026-08-26 15:34 MT",
+  "path": "files/daily-pulse/2026-08-26.md"
+ },
+ {
+  "title": "2026-09-21.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-21 15:36 MT",
+  "sha256": "20d3faa8992d49b5aa445270a21a06b243378023bf97391c270b6dbbfddaef8c",
+  "status": "UNPROVEN",
+  "created": "2026-09-21 15:36 MT",
+  "path": "files/daily-pulse/2026-09-21.md"
+ },
+ {
+  "title": "2026-09-25.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-25 15:35 MT",
+  "sha256": "01709c6d0874d6c884f0b40d2a0b1e30225395e72383658e9b57b5675a7fbdd7",
+  "status": "UNPROVEN",
+  "created": "2026-09-25 15:35 MT",
+  "path": "files/daily-pulse/2026-09-25.md"
+ },
+ {
+  "title": "Let’s do both of those let’s introduce a dog that ...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 13:46 MT",
+  "sha256": "45fa8c17e73148e678a54a1551fc90e52551f0b7bde602f31633ba42a8f2a06d",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 13:45 MT",
+  "path": "files/other/Let-s-do-both-of-those-let-s-introduce-a-dog-that-....docx"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-08-26 15:34 MT",
+  "sha256": "13bd8ce103e4d854603f51d350a30c31edd18863af728aa5ad9d5e6e92caa1d3",
+  "status": "UNPROVEN",
+  "created": "2026-08-26 15:34 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "Mosaic-Daily-Tile-2026-10-20.md",
+  "cat": "Mosaic",
+  "src": "drive",
+  "date": "2026-10-20 07:13 MT",
+  "sha256": "5ad3572d08e792c70c1d43b1b02cb54787eea0c2dccd06a91fddb8ecb8f099d5",
+  "status": "UNPROVEN",
+  "created": "2026-10-20 07:13 MT",
+  "path": "files/mosaic/Mosaic-Daily-Tile-2026-10-20.md"
+ },
+ {
+  "title": "365-things-to-do-or-plan.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-10-16 00:58 MT",
+  "sha256": "dd3845d6995acd9637e448214faba58575e4096a1a663d2bafa09d49e2898b11",
+  "status": "UNPROVEN",
+  "created": "2026-10-16 00:58 MT",
+  "path": "files/daily-pulse/365-things-to-do-or-plan.md"
+ },
+ {
+  "title": "Could you write the code to perform this and how w...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-08-27 01:51 MT",
+  "sha256": "e7ad27b7735d386fe444b2d21769cdbe84cfbc99bbad9b3495f1bc5dfcd88376",
+  "status": "UNPROVEN",
+  "created": "2026-08-27 01:50 MT",
+  "path": "files/other/Could-you-write-the-code-to-perform-this-and-how-w....docx"
+ },
+ {
+  "title": "What if the badges are just seen by the individual.docx",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-08-10 21:04 MT",
+  "sha256": "56c96f7a2b0712b712c2873b4869904a7dccf1c74f98964c8f8abe135e010362",
+  "status": "UNPROVEN",
+  "created": "2026-08-09 06:30 MT",
+  "path": "files/other/What-if-the-badges-are-just-seen-by-the-individual.docx"
+ },
+ {
+  "title": "365-impression-questions.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-10-16 00:58 MT",
+  "sha256": "35940e7a61270f5ff0f09b0dffe49ab623ea8d33a274fea23a4fccdccb17f250",
+  "status": "UNPROVEN",
+  "created": "2026-10-16 00:58 MT",
+  "path": "files/daily-pulse/365-impression-questions.md"
+ },
+ {
+  "title": "365-overlooked-questions.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-10-16 00:58 MT",
+  "sha256": "d6cd27e98de43ee4c80802824f934742ba07bbc1002c05989689b457fda65da5",
+  "status": "UNPROVEN",
+  "created": "2026-10-16 00:58 MT",
+  "path": "files/daily-pulse/365-overlooked-questions.md"
+ },
+ {
+  "title": "2026-09-10.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-10 15:35 MT",
+  "sha256": "f32961336b2e4ca03edc9653e363664885584a3f2a91f69f1db335f09a9c23fd",
+  "status": "UNPROVEN",
+  "created": "2026-09-10 15:35 MT",
+  "path": "files/daily-pulse/2026-09-10.md"
+ },
+ {
+  "title": "IMG_0967.png",
+  "cat": "W³ / WMQ",
+  "src": "drive",
+  "date": "2026-07-02 17:53 MT",
+  "sha256": "f1e3c90718180d0ef2a60137619b1de1403e0507287bff9aa05b2875150d5676",
+  "status": "UNPROVEN",
+  "created": "2026-07-02 17:53 MT",
+  "exif_date": "2026:05:17 04:42:19",
+  "thumb": "files/w-wmq/IMG_0967.thumb.jpg",
+  "path": "files/w-wmq/IMG_0967.jpg"
+ },
+ {
+  "title": "Yes, can we also have a section or pillar? That’s.docx",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-08-09 06:29 MT",
+  "sha256": "9f25cead5be6299d6c849cfbda6c5634b0e99afaa851530b8c4af5cab4eaba0d",
+  "status": "UNPROVEN",
+  "created": "2026-08-09 06:29 MT",
+  "path": "files/other/Yes-can-we-also-have-a-section-or-pillar-That-s.docx"
+ },
+ {
+  "title": "What are the best UVR5 algorithms and model settin...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-13 01:40 MT",
+  "sha256": "aa787a3ca9c223e168395a58479d718c15d14843a4268e8b6c749d16dd555869",
+  "status": "UNPROVEN",
+  "created": "2026-09-13 01:40 MT",
+  "path": "files/other/What-are-the-best-UVR5-algorithms-and-model-settin....docx"
+ },
+ {
+  "title": "Map Grok interaction flows",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 15:30 MT",
+  "sha256": "ab29652b6c9e3c88d986fdb0292cc38ff735243702b03f34004b93420023ec26",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 15:30 MT",
+  "path": "files/other/Map-Grok-interaction-flows.docx"
+ },
+ {
+  "title": "2026-09-02.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-02 15:35 MT",
+  "sha256": "28a7433e77e03f39bf1045d067c868f0b27db67624561d8c8c9c8a4be1b279c1",
+  "status": "UNPROVEN",
+  "created": "2026-09-02 15:35 MT",
+  "path": "files/daily-pulse/2026-09-02.md"
+ },
+ {
+  "title": "365-rarely-asked-things.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-10-16 00:58 MT",
+  "sha256": "4247b6ad8e938eefdac8859134191a4f6c432633d37d743cb1b72a01a60f4f3a",
+  "status": "UNPROVEN",
+  "created": "2026-10-16 00:58 MT",
+  "path": "files/daily-pulse/365-rarely-asked-things.md"
+ },
+ {
+  "title": "IMG_1035.png",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-05-25 13:14 MT",
+  "sha256": "2e7b060c87e8875948633e1684dfc30fd7532dc9dc2800e18bafa0971217870b",
+  "status": "UNPROVEN",
+  "created": "2026-05-25 13:14 MT",
+  "exif_date": "2026:05:21 10:16:18",
+  "thumb": "files/daily-pulse/IMG_1035.thumb.jpg",
+  "path": "files/daily-pulse/IMG_1035.jpg"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-10 15:35 MT",
+  "sha256": "428716ab4b7b6edef52b85297204b1b5de5a5bf2e08790066d409b899c1610b5",
+  "status": "UNPROVEN",
+  "created": "2026-09-10 15:35 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-08-28 15:34 MT",
+  "sha256": "36e7a7dcd3b3c0e65d7eab92dc85c146acb809030c92bb20543313a8ab730b8e",
+  "status": "UNPROVEN",
+  "created": "2026-08-28 15:34 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "Yes",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-13 00:30 MT",
+  "sha256": "c72e5fec54b1348446f71cdfd14773e9219ffe878e28db166d9c2d1d7990da82",
+  "status": "UNPROVEN",
+  "created": "2026-09-13 00:30 MT",
+  "path": "files/other/Yes.docx"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-26 15:34 MT",
+  "sha256": "5fcff35d6357010bde721904db73251ee5984adc93db184a3103a09d16d72aaa",
+  "status": "UNPROVEN",
+  "created": "2026-09-26 15:34 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "Let's vote for Option B (Synthetic AI Robotics) an...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 13:53 MT",
+  "sha256": "41eb986d621f15b7b7885956945103bed15eb5f3af6a959de9f860d52461e017",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 13:53 MT",
+  "path": "files/other/Let-s-vote-for-Option-B-Synthetic-AI-Robotics-an....docx"
+ },
+ {
+  "title": "2026-09-04.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-04 15:35 MT",
+  "sha256": "7d90cdad90b1c20275785b1d05637aa900bea40169f7e834badc12b2311333fb",
+  "status": "UNPROVEN",
+  "created": "2026-09-04 15:35 MT",
+  "path": "files/daily-pulse/2026-09-04.md"
+ },
+ {
+  "title": "Simulate FIFO rule logic",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 15:14 MT",
+  "sha256": "8f3afedb1e0ccf57eadc437aca0751328430451fc99b50e7f4d7fc88146d2df1",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 15:14 MT",
+  "path": "files/other/Simulate-FIFO-rule-logic.docx"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-25 15:35 MT",
+  "sha256": "7418b283a1d619795a2d25593feb8e09d82c5bc623cbf02fafc079573b988615",
+  "status": "UNPROVEN",
+  "created": "2026-09-25 15:35 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "2026-09-07.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-07 15:35 MT",
+  "sha256": "9dbff9f759d588932281df8fc6b461d6aa0e88738f5254b9535ff949f33354d5",
+  "status": "UNPROVEN",
+  "created": "2026-09-07 15:35 MT",
+  "path": "files/daily-pulse/2026-09-07.md"
+ },
+ {
+  "title": "2026-09-06.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-06 15:35 MT",
+  "sha256": "419dfb60705d4a090156ee21044e557ce0d8f3998730543dcafb72590f060dc5",
+  "status": "UNPROVEN",
+  "created": "2026-09-06 15:35 MT",
+  "path": "files/daily-pulse/2026-09-06.md"
+ },
+ {
+  "title": "Yes, let’s continue. Maybe bring in some of the ot...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 13:37 MT",
+  "sha256": "05e9a12d62acef63c556d7a32bba9c7eaf4caffbd025d390ab95c1152758db33",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 13:37 MT",
+  "path": "files/other/Yes-let-s-continue.-Maybe-bring-in-some-of-the-ot....docx"
+ },
+ {
+  "title": "IMG_0968.png",
+  "cat": "W³ / WMQ",
+  "src": "drive",
+  "date": "2026-07-02 17:53 MT",
+  "sha256": "52e445b0a84f27bf38a9b0e789af9de1352841bbfc5433f992909755048221e0",
+  "status": "UNPROVEN",
+  "created": "2026-07-02 17:53 MT",
+  "exif_date": "2026:05:17 04:42:58",
+  "thumb": "files/w-wmq/IMG_0968.thumb.jpg",
+  "path": "files/w-wmq/IMG_0968.jpg"
+ },
+ {
+  "title": "sketchbook-2007-2009__drawing-N8192-regnumber.jpg",
+  "cat": "Notebook pages",
+  "src": "drive",
+  "date": "2026-10-14 13:00 MT",
+  "sha256": "8f22daf0291f004f094a4a5fdbe4f7fc064ec6d25f00f8232faf30ada025b604",
+  "status": "VERIFIED",
+  "created": "2026-10-14 13:00 MT",
+  "exif_date": null,
+  "thumb": "files/notebook-pages/sketchbook-2007-2009__drawing-N8192-regnumber.thumb.jpg",
+  "path": "files/notebook-pages/sketchbook-2007-2009__drawing-N8192-regnumber.jpg"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-08-31 15:35 MT",
+  "sha256": "8ab506bda2c560c9ded52f5ed1298bffce66b911d727278959bc822b044a4e9b",
+  "status": "UNPROVEN",
+  "created": "2026-08-31 15:35 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "2026-09-01.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-01 15:35 MT",
+  "sha256": "878edf4e2d4ce16695320589ff8345be0c1aa95321ba0dcfbf9075e8a9b20596",
+  "status": "UNPROVEN",
+  "created": "2026-09-01 15:35 MT",
+  "path": "files/daily-pulse/2026-09-01.md"
+ },
+ {
+  "title": "Design the API contract and prompt pipeline for in...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-13 00:48 MT",
+  "sha256": "0313b814381676c1bfc3cda3c6b9a5c5ec4e7f735da5f6d1837ee47414b76ae1",
+  "status": "UNPROVEN",
+  "created": "2026-09-13 00:48 MT",
+  "path": "files/other/Design-the-API-contract-and-prompt-pipeline-for-in....docx"
+ },
+ {
+  "title": "IMG_0991.png",
+  "cat": "W³ / WMQ",
+  "src": "drive",
+  "date": "2026-07-02 17:53 MT",
+  "sha256": "2c0c92333c3af47806eae0cccbe7ff683b1f6d99d180e5c1f291d8720ce9be7f",
+  "status": "UNPROVEN",
+  "created": "2026-07-02 17:53 MT",
+  "exif_date": "2026:05:19 14:42:50",
+  "thumb": "files/w-wmq/IMG_0991.thumb.jpg",
+  "path": "files/w-wmq/IMG_0991.jpg"
+ },
+ {
+  "title": "2026-09-18.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-18 15:36 MT",
+  "sha256": "14e4527e8e44e543b514d6d3ae5fefa318519618efa14fe8b93106282c09f53c",
+  "status": "UNPROVEN",
+  "created": "2026-09-18 15:36 MT",
+  "path": "files/daily-pulse/2026-09-18.md"
+ },
+ {
+  "title": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>WMQ • What Matters?</title>\n    <script src=\"https:/cdn.tailwindcss.com\"></script>\n    <link rel=\"stylesheet\" href=\"https:/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css\">\n    <style>\n        @import url('https:/fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600&display=swap');\n        \n        body { font-family: 'Inter', system_ui, sans-serif; }\n        .logo-font { font-family: 'Space Grotesk', system_ui, sans-serif; }\n        \n        .cosmic-bg {\n            background: radial-gradient(circle at center, #1a1a2e 0%, #0f0f1a 100%);\n        }\n        \n        .glass {\n            background: rgba(255,255,255,0.05);\n            backdrop-filter: blur(20px);\n            border: 1px solid rgba(255,255,255,0.1);\n        }\n    </style>\n</head>\n<body class=\"bg- text-white cosmic-bg min-h-screen\">\n\n    <div class=\"max-w-2xl mx-auto p-4\">\n        <div class=\"flex justify-between items-center mb-6\">\n            <div class=\"flex items-center gap-3\">\n                <div class=\"w-11 h-11 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center\">\n                    <i class=\"fa-solid fa-question text-white text-3xl\"></i>\n                </div>\n                <div>\n                    <span class=\"logo-font text-3xl font-semibold\">WMQ</span>\n                    <span class=\"text-xs text-indigo-400 block -mt-1\">WHAT MATTERS?</span>\n                </div>\n            </div>\n            <div onclick=\"showQR()\" class=\"flex items-center gap-2 bg-white/10 px-4 py-2 rounded-3xl text-sm cursor-pointer\">\n                <i class=\"fa-solid fa-qrcode\"></i>\n                <span>Share Profile</span>\n            </div>\n        </div>\n\n        <div class=\"glass rounded-3xl p-8 text-center\">\n            <img id=\"profile-pic\" src=\"jeffrey-profile.jpg\" \n                 class=\"w-32 h-32 mx-auto rounded-2xl object-cover ring-4 ring-indigo-500 mb-6\" alt=\"Jeffrey Schnaus\">\n            \n            <h1 class=\"text-3xl font-semibold mb-1\">Jeffrey Schnaus</h1>\n            <p class=\"text-indigo-400\">@shnazart • Live Painter & WMQ Founder</p>\n\n            <div class=\"mt-8 flex justify-center gap-6\">\n                <div class=\"text-center\">\n                    <div class=\"text-4xl font-bold text-emerald-400\">94</div>\n                    <div class=\"text-xs text-white/60\">Credibility</div>\n                </div>\n                <div class=\"text-center\">\n                    <div class=\"text-4xl font-bold\">147</div>\n                    <div class=\"text-xs text-white/60\">Answers</div>\n                </div>\n            </div>\n\n            <button onclick=\"showQR()\" \n                    class=\"mt-10 w-full bg-gradient-to-r from-indigo-500 to-purple-600 py-4 rounded-2xl font-semibold flex items-center justify-center gap-3\">\n                <i class=\"fa-solid fa-qrcode\"></i>\n                Share My WMQ Profile\n            </button>\n        </div>\n    </div>\n\n    <script>\n        function showQR() {\n            const modal = document.createElement('div');\n            modal.className = 'fixed inset-0 bg-black/90 flex items-center justify-center z-50';\n            modal.innerHTML = `\n                <div class=\"bg-zinc-900 rounded-3xl p-8 max-w-xs w-full mx-4\">\n                    <div class=\"text-center\">\n                        <div class=\"text-lg font-semibold mb-4\">Share My WMQ Profile</div>\n                        <div class=\"bg-white p-4 rounded-2xl inline-block mb-6\">\n                            <img src=\"https:/api.qrserver.com/v1/create-qr-code/?size=220x220&data=https:/wmq.app/profile/shnazart\" \n                                 class=\"w-52 h-52\">\n                        </div>\n                        <div class=\"text-xs text-emerald-400 mb-1\">https:/wmq.app/profile/shnazart</div>\n                        <div class=\"text- text-white/50 mb-6\">Scan to connect with Jeffrey Schnaus on WMQ</div>\n                        \n                        <div class=\"flex gap-3\">\n                            <button onclick=\"copyLink()\" \n                                    class=\"flex-1 bg-white/10 hover:bg-white/20 py-3 rounded-2xl text-sm font-medium\">Copy Link</button>\n                            <button onclick=\"this.closest('.fixed').remove()\" \n                                    class=\"flex-1 bg-indigo-600 hover:bg-indigo-700 py-3 rounded-2xl text-sm font-medium\">Close</button>\n                        </div>\n                    </div>\n                </div>\n            `;\n            document.body.appendChild(modal);\n        }\n\n        function copyLink() {\n            navigator.clipboard.writeText(\"https:/wmq.app/profile/shnazart\");\n            alert(\"Link copied! You can now share it.\");\n        }\n\n        / Tailwind script\n        function init() {\n            console.log('%c✅ WMQ Prototype Ready. Tap \"Share My WMQ Profile\" to test the QR code.', 'color:#6366f1; font-weight:bold');\n        }\n        window.onload = init;\n    </script>\n</body>\n</html>\n.txt",
+  "cat": "W³ / WMQ",
+  "src": "drive",
+  "date": "2026-05-21 21:18 MT",
+  "sha256": "4c3274006152b28f2463278bdbec3d1c731bb5b7c96dcfdda1476a240b1b85ec",
+  "status": "UNPROVEN",
+  "created": "2026-05-21 21:18 MT",
+  "path": "files/w-wmq/DOCTYPE-html-html-lang-en-head-meta-charset-UTF-8-meta-name-viewport-content-wi.html"
+ },
+ {
+  "title": "sketchbook-2007-2009__drawing-grid-trustey.jpg",
+  "cat": "Notebook pages",
+  "src": "drive",
+  "date": "2026-10-14 13:00 MT",
+  "sha256": "7f96c2dd49bc08adb1dc065e7342dfa77e57d92414e3bae5ba050e0bd326e6e7",
+  "status": "VERIFIED",
+  "created": "2026-10-14 13:00 MT",
+  "exif_date": null,
+  "thumb": "files/notebook-pages/sketchbook-2007-2009__drawing-grid-trustey.thumb.jpg",
+  "path": "files/notebook-pages/sketchbook-2007-2009__drawing-grid-trustey.jpg"
+ },
+ {
+  "title": "Mosaic-Daily-Tile-2026-09-23.md",
+  "cat": "Mosaic",
+  "src": "drive",
+  "date": "2026-09-22 08:32 MT",
+  "sha256": "4219d958a6d15b9bbeb9ae7ceee37a46222befdf434abd91fc81f524b5c51e95",
+  "status": "UNPROVEN",
+  "created": "2026-09-22 08:32 MT",
+  "path": "files/mosaic/Mosaic-Daily-Tile-2026-09-23.md"
+ },
+ {
+  "title": "365-questions-you-rarely-ask-yourself.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-10-16 00:58 MT",
+  "sha256": "ebb4c4b24ef7d0550f55b9eb0a504fb19be67a300c9c060fe953f7a057ac2fdf",
+  "status": "UNPROVEN",
+  "created": "2026-10-16 00:58 MT",
+  "path": "files/daily-pulse/365-questions-you-rarely-ask-yourself.md"
+ },
+ {
+  "title": "IMG_1031.png",
+  "cat": "W³ / WMQ",
+  "src": "drive",
+  "date": "2026-07-02 17:54 MT",
+  "sha256": "544930354c5c47670c0b9f0de3f4c90b8457dcc5187bd69ec29785b9be75df00",
+  "status": "UNPROVEN",
+  "created": "2026-07-02 17:54 MT",
+  "exif_date": "2026:05:21 08:25:55",
+  "thumb": "files/w-wmq/IMG_1031.thumb.jpg",
+  "path": "files/w-wmq/IMG_1031.jpg"
+ },
+ {
+  "title": "sketchbook-2007-2009__tally-timelog-sat-feb-28.jpg",
+  "cat": "Notebook pages",
+  "src": "drive",
+  "date": "2026-10-14 13:00 MT",
+  "sha256": "0133d88da6b6b728df587b606e49e39b1ee2076c74273e3c839de22fca387f81",
+  "status": "VERIFIED",
+  "created": "2026-10-14 13:00 MT",
+  "exif_date": null,
+  "thumb": "files/notebook-pages/sketchbook-2007-2009__tally-timelog-sat-feb-28.thumb.jpg",
+  "path": "files/notebook-pages/sketchbook-2007-2009__tally-timelog-sat-feb-28.jpg"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-06 15:35 MT",
+  "sha256": "3a4e4db9cedea7688a435ac0978167520e862c5ce7a43885be3f133a0e0d7200",
+  "status": "UNPROVEN",
+  "created": "2026-09-06 15:35 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "IMG_1032.png",
+  "cat": "W³ / WMQ",
+  "src": "drive",
+  "date": "2026-05-25 13:14 MT",
+  "sha256": "40369762f0d9b30376a74402a3bab9e31062815ef17f530d8362efa9d65a5e92",
+  "status": "UNPROVEN",
+  "created": "2026-05-25 13:13 MT",
+  "exif_date": "2026:05:21 08:26:52",
+  "thumb": "files/w-wmq/IMG_1032.thumb.jpg",
+  "path": "files/w-wmq/IMG_1032.jpg"
+ },
+ {
+  "title": "Yes, do both and any more of both computer or AI f...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 13:34 MT",
+  "sha256": "31ecf894eed9b7e4f0bb71f092d016a67719fcb2398914bcc60e003571f47600",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 13:34 MT",
+  "path": "files/other/Yes-do-both-and-any-more-of-both-computer-or-AI-f....docx"
+ },
+ {
+  "title": "2026-08-31.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-08-31 15:35 MT",
+  "sha256": "28f60d62e11a5d8815fef9fedf0e42376c472d5c1348b9fcefc93e1a3b711f70",
+  "status": "UNPROVEN",
+  "created": "2026-08-31 15:35 MT",
+  "path": "files/daily-pulse/2026-08-31.md"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-08-30 15:34 MT",
+  "sha256": "0ec0d54dc274feabe39283fe7c0328cfc45ff561552a26f2da5c2196b9e72d8f",
+  "status": "UNPROVEN",
+  "created": "2026-08-30 15:34 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-21 15:36 MT",
+  "sha256": "a471b89372beb4556ee654b455514e3ce7aee5448f6fd2981ee21778ac046fbf",
+  "status": "UNPROVEN",
+  "created": "2026-09-21 15:36 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-14 15:36 MT",
+  "sha256": "2a61a6c8451594f7b6ebd26aef314ceced6c67274f1839eced9002fd1a6a240b",
+  "status": "UNPROVEN",
+  "created": "2026-09-14 15:36 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "2026-08-30.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-08-30 15:34 MT",
+  "sha256": "17f18dd94e8f6beef232f7ca783d90e69f87ffc9e989b7eeb34fd27e5a8bac86",
+  "status": "UNPROVEN",
+  "created": "2026-08-30 15:34 MT",
+  "path": "files/daily-pulse/2026-08-30.md"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-01 15:35 MT",
+  "sha256": "51ad3f2d4bf6956f22eb372168153605ba8ab151f09403260d94b9f10c166250",
+  "status": "UNPROVEN",
+  "created": "2026-09-01 15:35 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "Yeah, I’d like to see a float chart of language of...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 13:35 MT",
+  "sha256": "26ad453aa203c8bd8a0bb8877e9732f20b252051a5b679911c75a58b83fa706d",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 13:35 MT",
+  "path": "files/other/Yeah-I-d-like-to-see-a-float-chart-of-language-of....docx"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-07 15:35 MT",
+  "sha256": "60cc36287ac816cf96fe8d8b576d7fdad33e902468bcb287236605fc495cc3ed",
+  "status": "UNPROVEN",
+  "created": "2026-09-07 15:35 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "2026-09-14.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-14 15:36 MT",
+  "sha256": "17643f99da33eaa5ee9a2f08e3b8b6110315ddbe86400c4b7dba8c33a056fa9e",
+  "status": "UNPROVEN",
+  "created": "2026-09-14 15:36 MT",
+  "path": "files/daily-pulse/2026-09-14.md"
+ },
+ {
+  "title": "Format 'Table Flip' and 'Legacy of Bezalel' into o...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-13 01:39 MT",
+  "sha256": "f0760f378e851f059827d50f049e63030ba827d54b9fe0727ec75693cb7204ab",
+  "status": "UNPROVEN",
+  "created": "2026-09-13 01:39 MT",
+  "path": "files/other/Format-Table-Flip-and-Legacy-of-Bezalel-into-o....docx"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-02 15:35 MT",
+  "sha256": "76c447af273e43fe2040b45abe400532e65d3a11e9dc9753e8871dba87b783be",
+  "status": "UNPROVEN",
+  "created": "2026-09-02 15:35 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-04 15:35 MT",
+  "sha256": "8d0b0c1cd63c9fd2b92f8033bf96e4bdb637cd762460b13bedaec1c1de0093d3",
+  "status": "UNPROVEN",
+  "created": "2026-09-04 15:35 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-30 15:34 MT",
+  "sha256": "943f78dbabfee7f450bda3a4344fbc83be9e09f5d6fad9c2bdb68d069e09d458",
+  "status": "UNPROVEN",
+  "created": "2026-09-30 15:34 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "2026-08-28.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-08-28 15:35 MT",
+  "sha256": "2bdc0e1f4420ba8442276e0083e8653d0c1d28f3a0090a777b6bf3db595b4aa5",
+  "status": "UNPROVEN",
+  "created": "2026-08-28 15:35 MT",
+  "path": "files/daily-pulse/2026-08-28.md"
+ },
+ {
+  "title": "Compare Global Workspace Theory and Integrated Inf...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 13:35 MT",
+  "sha256": "da04811976b4b39524ea17ff5e7568c69f6b9c70357677a77d852a107e4a21c1",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 13:35 MT",
+  "path": "files/other/Compare-Global-Workspace-Theory-and-Integrated-Inf....docx"
+ },
+ {
+  "title": "Compare program vs bootstrapping",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 15:29 MT",
+  "sha256": "d39fe34533bb75c0b32aae713e3aa5cb54c1c84fb2a81f9ab87b8242994fb1d8",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 15:29 MT",
+  "path": "files/other/Compare-program-vs-bootstrapping.docx"
+ },
+ {
+  "title": "calendar.md",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-09-02 15:35 MT",
+  "sha256": "027d32a52fdbfc56a7ae8d743a71b97cc1538f6c57508a0bdf9d307054758d2b",
+  "status": "UNPROVEN",
+  "created": "2026-09-02 15:35 MT",
+  "path": "files/daily-pulse/calendar.md"
+ },
+ {
+  "title": "IMG_1034.png",
+  "cat": "Daily Pulse",
+  "src": "drive",
+  "date": "2026-05-25 13:14 MT",
+  "sha256": "bf427047b0dce6b2ef5baa771b53ca3d5bb31d6a0859b0cdc168835f721565a0",
+  "status": "UNPROVEN",
+  "created": "2026-05-25 13:14 MT",
+  "exif_date": "2026:05:21 10:14:30",
+  "thumb": "files/daily-pulse/IMG_1034.thumb.jpg",
+  "path": "files/daily-pulse/IMG_1034.jpg"
+ },
+ {
+  "title": "Let's vote for Option B (Synthetic AI Robotics) an...",
+  "cat": "Other",
+  "src": "drive",
+  "date": "2026-09-11 13:54 MT",
+  "sha256": "3163dbd1936093c0a6162843950ca746e1a23ad4d8a4a29668d3eea12cc29daa",
+  "status": "UNPROVEN",
+  "created": "2026-09-11 13:54 MT",
+  "path": "files/other/Let-s-vote-for-Option-B-Synthetic-AI-Robotics-an....docx"
+ },
+ {
+  "title": "Copyright registration (record only)",
+  "cat": "Notebook pages",
+  "src": "record",
+  "date": "2009-11-06",
+  "sha256": "",
+  "status": "VERIFIED",
+  "record": "VAu 1-004-871, 2009-11-06"
+ }
+]

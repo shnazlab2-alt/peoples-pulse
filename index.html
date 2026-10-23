@@ -54,16 +54,34 @@ body.sz{-webkit-tap-highlight-color:transparent}
 .gold{transition:transform .08s}.gold:active{transform:scale(.97)}
 @media (max-width:420px){.pp-title{font-size:26px}.qmain{font-size:20px}main{padding:10px 10px 96px}}
 @media print{.sz-nav,.tabs,.sz-fab,button,.noprint{display:none!important}body{background:#fff!important;color:#000}}
+
+/* Section colors (add-only 2026-10-23). Gold stays for the Q + primary buttons; amber=warning, green=answered, red=needs-review. */
+:root{--sec-today:#2dd4bf;--sec-world:#60a5fa;--sec-results:#22d3ee;--sec-bank:#a3e635;--sec-weekly:#a78bfa;--sec-community:#fb923c;--sec-monthly:#818cf8;--sec-all:#94a3b8;--sec-files:#d4a373}
+html[data-sz-theme=light]{--sec-today:#0f766e;--sec-world:#1d4ed8;--sec-results:#0e7490;--sec-bank:#4d7c0f;--sec-weekly:#6d28d9;--sec-community:#c2410c;--sec-monthly:#4338ca;--sec-all:#475569;--sec-files:#9a5b2a}
+html[data-sz-theme=neon]{--sec-today:#2ff5d8;--sec-world:#6cb6ff;--sec-results:#3be8ff;--sec-bank:#b6ff3b;--sec-weekly:#b99bff;--sec-community:#ffa04d;--sec-monthly:#9aa5ff;--sec-all:#b0bccc;--sec-files:#e6b585}
+body.sec-on [id^="v-"] .sz-card{border-top:4px solid var(--sec);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--sec) 35%,transparent)}
+body.sec-on [id^="v-"] .sz-kicker{color:var(--sec)}
+body.sec-on #tabs button[data-v]{border-bottom:3px solid color-mix(in srgb,var(--sec) 55%,transparent)}
+body.sec-on #tabs button[data-v].on{border-bottom-color:var(--sec)}
+body.sec-on .secband{display:block;height:6px;border-radius:6px;background:var(--sec);margin:0 0 10px}
+.secband{display:none}
+#v-today,[data-v=today]{--sec:var(--sec-today)}#v-world,[data-v=world]{--sec:var(--sec-world)}#v-results,[data-v=results]{--sec:var(--sec-results)}#v-bank,[data-v=bank]{--sec:var(--sec-bank)}#v-weekly,[data-v=weekly]{--sec:var(--sec-weekly)}#v-community,[data-v=community]{--sec:var(--sec-community)}#v-monthly,[data-v=monthly]{--sec:var(--sec-monthly)}#v-all,[data-v=all]{--sec:var(--sec-all)}#v-files,[data-v=files]{--sec:var(--sec-files)}
+.settings{display:flex;gap:8px;align-items:center;margin-top:8px;font-size:13px;color:var(--sz-mu)}.settings input{accent-color:#E8B923;width:18px;height:18px}
+.fl-tools{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.fl-tools input,.fl-tools select{flex:1 1 140px;min-width:0;padding:9px;border-radius:10px;border:1px solid var(--sz-line);background:var(--sz-input);color:var(--sz-tx);font:14px var(--sz-font,inherit)}
+.fl-cat{margin:14px 0 4px;font-weight:800;color:var(--sec)}.fl-it{border:1px solid var(--sz-line);border-radius:12px;padding:10px;margin:6px 0;display:flex;gap:10px;align-items:flex-start}
+.fl-it img{width:64px;height:64px;object-fit:cover;border-radius:8px;flex:none}.fl-it .t{font-weight:700;word-break:break-word}.fl-it .m{font-size:12px;color:var(--sz-mu);word-break:break-all}
+.st{display:inline-block;font:800 10.5px/1 system-ui;padding:3px 6px;border-radius:6px;margin-right:4px;border:1px solid currentColor}.st.VERIFIED{color:var(--sz-ok,#22c55e)}.st.SECONDARY{color:var(--sec-world)}.st.CLAIMED{color:var(--sec-weekly)}.st.UNPROVEN{color:var(--sz-mu)}
 </style></head><body class="sz"><script src="/shnaz-nav.js"></script><script src="pulse-sync.js"></script>
 <main>
 <header class="hero sz-card pp-hero"><div class="pp-brand"><img class="pp-logo" src="icon-192.png" alt="" width="52" height="52"><div><h1 class="pp-title">The People's Pulse</h1><div class="pp-credit">W³ / What Matters³ by Jeff SHNaZLab<span class="acc"> ●</span></div></div></div>
 <p class="sz-mut" style="margin:10px 0 0">One question for the world each day. Vote, see the world tally, tell your story, add proof, push back. Only your anonymous vote number is shared for the world tally — stories, media, names and suggestions stay on <b>this device</b>.</p>
 <div class="row" style="margin-top:8px"><span class="sz-pill g" id="syncPill">● world tally</span><span class="sz-pill">SHA-256 Bank coins</span><span class="sz-pill" id="dayPill"></span></div>
 <div class="themes" id="themes" aria-label="Theme"><button data-t="dark">Dark</button><button data-t="light">Light</button><button data-t="neon">Neon</button><button data-t="calm">Calm</button></div>
+<div class="settings" id="settings"><label><input type="checkbox" id="secToggle" checked> Section colors</label></div>
 <div class="inst hidden" id="inst"><span class="note" id="instTxt">Install The People's Pulse on your home screen — works offline.</span><button class="gold" id="instBtn" style="padding:9px 12px;white-space:nowrap;font-size:13px">Add to Home Screen</button></div></header>
 
 <div class="tabs" role="tablist" id="tabs">
-<button class="sz-pill on" data-v="today">Today</button><button class="sz-pill" data-v="world">🌍 World</button><button class="sz-pill" data-v="results">This device</button><button class="sz-pill" data-v="weekly">Weekly Highlight</button><button class="sz-pill" data-v="community">Community Vote</button><button class="sz-pill" data-v="monthly">Monthly Impact</button><button class="sz-pill" data-v="bank">Bank</button><button class="sz-pill" data-v="all">All 30</button>
+<button class="sz-pill on" data-v="today">Today</button><button class="sz-pill" data-v="world">🌍 World</button><button class="sz-pill" data-v="results">This device</button><button class="sz-pill" data-v="weekly">Weekly Highlight</button><button class="sz-pill" data-v="community">Community Vote</button><button class="sz-pill" data-v="monthly">Monthly Impact</button><button class="sz-pill" data-v="bank">Bank</button><button class="sz-pill" data-v="all">All 30</button><button class="sz-pill" data-v="files">My Files</button>
 </div>
 
 <div id="v-today">
@@ -97,6 +115,10 @@ body.sz{-webkit-tap-highlight-color:transparent}
 <div id="v-monthly" class="hidden"><section class="sz-card"><div class="sz-kicker">Monthly Impact Report · this device</div><h2 id="moTitle"></h2><div id="mo"></div><div class="row noprint" style="margin-top:12px"><button class="gold" id="printMo">Export printable page</button></div></section></div>
 <div id="v-bank" class="hidden"><section class="sz-card"><div class="sz-kicker">Bank · Daily Pulse coins</div><h2>Your deposits</h2><p class="note">Every saved answer, suggestion and upload is a dated, SHA-256 hash-chained coin on this device.</p><div class="row"><button class="ghost" id="verify">Verify chain</button><span id="vres" class="note"></span></div><div id="bankEl" style="margin-top:10px"></div></section></div>
 <div id="v-all" class="hidden"><section class="sz-card"><div class="sz-kicker">Question bank · 30</div><h2>All daily questions</h2><p class="note">One per day, rotating by date.</p><ol id="allq" style="padding-left:20px;line-height:1.5"></ol></section></div>
+<div id="v-files" class="hidden"><section class="sz-card"><div class="sz-kicker">My Files · evidence library</div><h2>Evidence library</h2><p class="note">Public-safe items you can open; record lines show date (MT), status and SHA-256. Times are Mountain Time.</p>
+<div class="fl-tools"><input id="flQ" type="search" placeholder="Search title or hash"><select id="flCat"><option value="">All categories</option></select><select id="flSt"><option value="">All statuses</option><option>VERIFIED</option><option>SECONDARY</option><option>CLAIMED</option><option>UNPROVEN</option></select></div>
+<div id="flOut"><p class="note">Loading…</p></div></section>
+<section class="sz-card"><div class="sz-kicker">Add my file · this device only</div><h2>Add my file</h2><p class="note">Stored on this device (IndexedDB) and hashed into a Bank coin. Never uploaded.</p><input type="file" id="myFile" multiple><div id="myOut"></div></section></div>
 </main>
 <footer class="authorship-stamp" style="margin:24px auto;max-width:760px;padding:12px 16px;border:2px solid #2e9e5b;border-radius:10px;background:#0f2a1a;color:#e8f5ec;font:14px/1.5 system-ui,sans-serif;text-align:center">W³ / What Matters³ by Jeff SHNaZLab · The People's Pulse first public 2026-10-21 (grown from the Daily Global Humanity Pulse) · <span style="display:inline-block;background:#2e9e5b;color:#fff;border-radius:999px;padding:1px 10px;font-weight:700">● green originality mark</span><br><small>Concept and direction: Jeff SHNaZLab; AI-assisted build. Questions marked “asked by SI/AI” were written by AI.</small></footer>
 <script>
@@ -237,7 +259,7 @@ lines.push("This device: "+s.st+" story, "+m+" media, "+S.sugg.filter(function(x
 var txt=lines.join("\n");$("sumOut").innerHTML='<pre class="sum" id="sumTxt"></pre><button class="gold" id="copySum">Copy summary</button> <span class="note" id="copyMsg">Copy it and post it yourself — nothing is sent.</span>';$("sumTxt").textContent=txt;
 $("copySum").onclick=function(){(navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){$("copyMsg").innerHTML='<span class="ok">✓ Copied</span>'},function(){var r=document.createRange();r.selectNode($("sumTxt"));getSelection().removeAllRanges();getSelection().addRange(r);$("copyMsg").textContent="Selected — press copy."})}})};
 /* tabs */
-var R={today:function(){},world:renderWorld,results:renderResults,weekly:renderWeekly,community:renderCommunity,monthly:renderMonthly,bank:renderBank,all:renderAll};
+var R={today:function(){},world:renderWorld,results:renderResults,weekly:renderWeekly,community:renderCommunity,monthly:renderMonthly,bank:renderBank,all:renderAll,files:renderFiles};
 function show(v){if(!R[v])v="today";document.querySelectorAll("#tabs button").forEach(function(b){b.classList.toggle("on",b.dataset.v===v)});Object.keys(R).forEach(function(k){$("v-"+k).classList.toggle("hidden",k!==v)});R[v]();if(location.hash.slice(1)!==v)history.replaceState(null,"","#"+v)}
 $("tabs").onclick=function(e){var b=e.target.closest("button");if(b)show(b.dataset.v)};
 $("dayPill").textContent=new Date(TODAY+"T12:00").toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})+" · Q "+(QI+1)+"/30";
@@ -254,5 +276,19 @@ $("instBtn").onclick=function(){if(dp){dp.prompt();dp.userChoice.then(function()
 if(!standalone&&/iphone|ipad|ipod/i.test(navigator.userAgent)){$("inst").classList.remove("hidden");$("instBtn").classList.add("hidden");$("instTxt").innerHTML="Install: tap Share <b>⬆︎</b>, then <b>Add to Home Screen</b>."}
 addEventListener("appinstalled",function(){$("inst").classList.add("hidden")});
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js",{scope:"./"}).catch(function(){});
+/* Section colors + My Files (add-only 2026-10-23) */
+(function(){var on=localStorage.getItem("pp-sec")!=="0";document.body.classList.toggle("sec-on",on);$("secToggle").checked=on;$("secToggle").onchange=function(){localStorage.setItem("pp-sec",this.checked?"1":"0");document.body.classList.toggle("sec-on",this.checked)};
+document.querySelectorAll('[id^="v-"]').forEach(function(v){var c=v.querySelector(".sz-card");if(c&&!c.querySelector(".secband")){var b=document.createElement("span");b.className="secband";c.insertBefore(b,c.firstChild)}})})();
+var FL=null;function esc(t){return String(t==null?"":t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function renderFiles(){if(!FL){fetch("files.json").then(function(r){return r.json()}).then(function(d){FL=d;var cs={};d.forEach(function(i){cs[i.cat]=1});Object.keys(cs).sort().forEach(function(c){var o=document.createElement("option");o.textContent=c;$("flCat").appendChild(o)});paintFiles()}).catch(function(){$("flOut").innerHTML='<p class="note">Could not load the library.</p>'})}else paintFiles();renderMine()}
+function paintFiles(){var q=$("flQ").value.toLowerCase(),c=$("flCat").value,st=$("flSt").value,g={};FL.forEach(function(i){if(c&&i.cat!==c||st&&i.status!==st)return;if(q&&(i.title+" "+i.sha256+" "+i.cat).toLowerCase().indexOf(q)<0)return;(g[i.cat]=g[i.cat]||[]).push(i)});
+var h="";Object.keys(g).sort().forEach(function(k){h+='<div class="fl-cat">'+esc(k)+' · '+g[k].length+'</div>';g[k].forEach(function(i){var t=esc(i.title.split("\n")[0].slice(0,120));h+='<div class="fl-it">'+(i.thumb?'<img loading="lazy" src="'+esc(i.thumb)+'" alt="">':'')+'<div><div class="t">'+(i.path?'<a href="'+esc(i.path)+'" target="_blank" rel="noopener">'+t+'</a>':t)+'</div><div class="m"><span class="st '+i.status+'">'+i.status+'</span>'+esc(i.date)+(i.created?' · created '+esc(i.created):'')+(i.exif_date?' · photo '+esc(i.exif_date):'')+(i.record?' · '+esc(i.record):'')+(i.sha256?'<br>SHA-256 '+esc(i.sha256):'')+'</div></div></div>'})});
+$("flOut").innerHTML=h||'<p class="note">No matches.</p>'}
+["flQ","flCat","flSt"].forEach(function(k){$(k).oninput=function(){if(FL)paintFiles()}});
+var mdbp=null;function mdb(){if(mdbp)return mdbp;mdbp=new Promise(function(res,rej){var r=indexedDB.open("sz-pulse-myfiles",1);r.onupgradeneeded=function(){r.result.createObjectStore("files",{keyPath:"id"})};r.onsuccess=function(){res(r.result)};r.onerror=function(){rej(r.error)}});return mdbp}
+function mtx(mode,fn){return mdb().then(function(d){return new Promise(function(res,rej){var t=d.transaction("files",mode),o=fn(t.objectStore("files"));t.oncomplete=function(){res(o&&o.result)};t.onerror=function(){rej(t.error)}})})}
+function renderMine(){mtx("readonly",function(s){return s.getAll()}).then(function(a){a=a||[];$("myOut").innerHTML=a.length?a.map(function(f){return '<div class="fl-it"><div><div class="t">'+esc(f.name)+'</div><div class="m">'+esc(new Date(f.at).toLocaleString("en-US",{timeZone:"America/Denver",year:"numeric",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}))+' MT · '+Math.round(f.size/1024)+' KB<br>SHA-256 '+esc(f.sha256)+'</div></div></div>'}).join(""):'<p class="note">No device files yet.</p>'}).catch(function(){})}
+$("myFile").onchange=function(){var fs=[].slice.call(this.files);Promise.all(fs.map(function(f){return f.arrayBuffer().then(function(b){return crypto.subtle.digest("SHA-256",b).then(function(d){var h=hex(d),rec={id:h+"-"+Date.now(),name:f.name,type:f.type,size:f.size,at:Date.now(),sha256:h,blob:new Blob([b],{type:f.type})};return mtx("readwrite",function(s){s.put(rec)}).then(function(){return deposit("pulse.myfile",{name:f.name,size:f.size,sha256:h})})})})})).then(renderMine);this.value=""};
+
 })();
 </script></body></html>

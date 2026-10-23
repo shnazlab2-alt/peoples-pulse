@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMQ • What Matters?</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+        
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .logo-font { font-family: 'Space Grotesk', system_ui, sans-serif; }
+        
+        .cosmic-bg {
+            background: radial-gradient(circle at center, #1a1a2e 0%, #0f0f1a 100%);
+        }
+        
+        .glass {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body class="bg- text-white cosmic-bg min-h-screen">
+
+    <div class="max-w-2xl mx-auto p-4">
+        <div class="flex justify-between items-center mb-6">
+            <div class="flex items-center gap-3">
+                <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+                    <i class="fa-solid fa-question text-white text-3xl"></i>
+                </div>
+                <div>
+                    <span class="logo-font text-3xl font-semibold">WMQ</span>
+                    <span class="text-xs text-indigo-400 block -mt-1">WHAT MATTERS?</span>
+                </div>
+            </div>
+            <div onclick="showQR()" class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-3xl text-sm cursor-pointer">
+                <i class="fa-solid fa-qrcode"></i>
+                <span>Share Profile</span>
+            </div>
+        </div>
+
+        <div class="glass rounded-3xl p-8 text-center">
+            <img id="profile-pic" src="jeffrey-profile.jpg" 
+                 class="w-32 h-32 mx-auto rounded-2xl object-cover ring-4 ring-indigo-500 mb-6" alt="Jeffrey Schnaus">
+            
+            <h1 class="text-3xl font-semibold mb-1">Jeffrey Schnaus</h1>
+            <p class="text-indigo-400">@shnazart • Live Painter & WMQ Founder</p>
+
+            <div class="mt-8 flex justify-center gap-6">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-emerald-400">94</div>
+                    <div class="text-xs text-white/60">Credibility</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold">147</div>
+                    <div class="text-xs text-white/60">Answers</div>
+                </div>
+            </div>
+
+            <button onclick="showQR()" 
+                    class="mt-10 w-full bg-gradient-to-r from-indigo-500 to-purple-600 py-4 rounded-2xl font-semibold flex items-center justify-center gap-3">
+                <i class="fa-solid fa-qrcode"></i>
+                Share My WMQ Profile
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function showQR() {
+            const modal = document.createElement('div');
+            modal.className = 'fixed inset-0 bg-black/90 flex items-center justify-center z-50';
+            modal.innerHTML = `
+                <div class="bg-zinc-900 rounded-3xl p-8 max-w-xs w-full mx-4">
+                    <div class="text-center">
+                        <div class="text-lg font-semibold mb-4">Share My WMQ Profile</div>
+                        <div class="bg-white p-4 rounded-2xl inline-block mb-6">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://wmq.app/profile/shnazart" 
+                                 class="w-52 h-52">
+                        </div>
+                        <div class="text-xs text-emerald-400 mb-1">https://wmq.app/profile/shnazart</div>
+                        <div class="text- text-white/50 mb-6">Scan to connect with Jeffrey Schnaus on WMQ</div>
+                        
+                        <div class="flex gap-3">
+                            <button onclick="copyLink()" 
+                                    class="flex-1 bg-white/10 hover:bg-white/20 py-3 rounded-2xl text-sm font-medium">Copy Link</button>
+                            <button onclick="this.closest('.fixed').remove()" 
+                                    class="flex-1 bg-indigo-600 hover:bg-indigo-700 py-3 rounded-2xl text-sm font-medium">Close</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+
+        function copyLink() {
+            navigator.clipboard.writeText("https://wmq.app/profile/shnazart");
+            alert("Link copied! You can now share it.");
+        }
+
+        // Tailwind script
+        function init() {
+            console.log('%c✅ WMQ Prototype Ready. Tap "Share My WMQ Profile" to test the QR code.', 'color:#6366f1; font-weight:bold');
+        }
+        window.onload = init;
+    </script>
+</body>
+</html>

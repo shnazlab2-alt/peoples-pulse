@@ -1,7 +1,7 @@
 // TH!Nk2 · JeffQ · © Jeff SHNaZLab · W³
 // The People's Pulse service worker: offline app shell. Never caches tally API calls.
-var CACHE="peoples-pulse-v1";
-var SHELL=["./","./index.html","./manifest.json","./pulse-sync.js","./icon.svg","./icon-192.png","./icon-512.png","./icon-180.png",
+var CACHE="peoples-pulse-v2";
+var SHELL=["./","./index.html","./manifest.json","./pulse-sync.js","./icon.svg","./icon-192.png","./icon-512.png","./icon-180.png","./files.json",
   "/shnaz.css","/shnaz-nav.js","/shnaz-tools.js","/shared/bank.js","/shared/highlight.js","/favicon.svg"];
 self.addEventListener("install",function(e){e.waitUntil(caches.open(CACHE).then(function(c){
   return Promise.all(SHELL.map(function(u){return c.add(new Request(u,{cache:"reload"})).catch(function(){})}))}).then(function(){return self.skipWaiting()}))});
