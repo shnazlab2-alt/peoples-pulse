@@ -10,10 +10,11 @@
   --warn:#E0A01A;
   --review:#C4453C;
   --safe-b:env(safe-area-inset-bottom,0px);
-  --dock-h:66px;
+  --dock-h:128px;
   --nav-gap:58px;
 }
 html[data-pp-theme=quiet],
+html[data-pp-theme=quiet] body,
 html[data-pp-theme=quiet] body.sz{
   --sz-bg:#0C0D10;
   --sz-card:#181B22;
@@ -26,13 +27,15 @@ html[data-pp-theme=quiet] body.sz{
   --sz-warn:#E0A01A;
   --sz-review:#C4453C;
   --sz-pk:#E8B923;
+  --sz-navbg:rgba(12,13,16,.92);
   --bg:#0C0D10;
   --tx:#F4F1EA;
   --mu:#9B968C;
   --card:#181B22;
   --line:#2A2E38;
   --input:#12141A;
-  background:#0C0D10;
+  background:#0C0D10 !important;
+  background-image:none !important;
   color:#F4F1EA;
   color-scheme:dark;
 }
@@ -73,31 +76,34 @@ body.sz.pp-preview{
 }
 .pv-banner a{color:#E8B923;font-weight:800;text-decoration:none}
 
-/* Bottom dock — left gap keeps the color-wheel legend visible */
+/* Bottom dock sits above the color-wheel legend so all five tabs stay visible */
 .dock{
   position:fixed;z-index:900;
-  left:64px;right:10px;
-  bottom:calc(8px + var(--safe-b));
-  height:56px;
+  left:10px;right:10px;
+  bottom:calc(58px + var(--safe-b));
+  height:58px;
   display:flex;align-items:stretch;
-  background:color-mix(in srgb,var(--card) 86%,transparent);
+  background:color-mix(in srgb,var(--card) 92%,transparent);
   backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
   border:1px solid var(--line);
   border-radius:18px;
   box-shadow:0 10px 30px rgba(0,0,0,.35);
   overflow:hidden;
+  padding:3px;
 }
 .dock button{
-  flex:1;border:0;background:transparent;color:var(--mu);
+  flex:1 1 0;min-width:0;border:0!important;
+  background:transparent!important;color:var(--mu)!important;
   font:700 10px/1.15 ui-sans-serif,system-ui,sans-serif;
   letter-spacing:.02em;
   cursor:pointer;padding:6px 2px 8px;
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;
+  box-shadow:none!important;border-radius:14px;
 }
-.dock button .ico{font-size:17px;line-height:1}
-.dock button.on{color:var(--tx)}
+.dock button .ico{font-size:17px;line-height:1;color:inherit}
+.dock button.on{color:var(--tx)!important;background:rgba(232,185,35,.16)!important}
 .dock button.on .ico{color:#E8B923}
-body.sec-on .dock button.on{color:var(--sec,var(--tx))}
+body.sec-on .dock button.on{color:var(--tx)!important}
 
 /* Panels */
 .panel{display:none;padding:10px 16px calc(var(--dock-h) + 28px)}
