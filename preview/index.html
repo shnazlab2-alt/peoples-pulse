@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The People's Pulse — layout preview — W³ / What Matters³ by Jeff SHNaZLab</title>
+<meta name="description" content="Preview of a new People's Pulse layout. One question for the world each day. The live app is unchanged.">
+<meta name="author" content="Jeff SHNaZLab">
+<meta name="theme-color" content="#0C0D10">
+<meta name="robots" content="noindex">
+<!-- TH!Nk2 · JeffQ · © Jeff SHNaZLab · W³ -->
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../icon-180.png">
+<link rel="manifest" href="../manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="People's Pulse">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="/shnaz.css">
+<link rel="stylesheet" href="preview.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CreativeWork","name":"The People's Pulse (layout preview)","isBasedOn":"https://shnazlab2-alt.github.io/peoples-pulse/","author":{"@type":"Person","name":"Jeff SHNaZLab"},"dateCreated":"2026-11-10","url":"https://shnazlab2-alt.github.io/peoples-pulse/preview/","description":"Preview of a new layout. Concept and direction: Jeff SHNaZLab; AI-assisted build. The live People's Pulse app is unchanged."}</script>
+</head>
+<body class="sz pp-preview">
+<script src="/shnaz-nav.js"></script>
+<script src="../pulse-sync.js"></script>
+
+<div class="pv-banner">
+  <span>Preview of a new layout — the <a href="../">live app</a> is unchanged.</span>
+  <span class="pill" id="syncPill">● world tally</span>
+</div>
+
+<main>
+  <!-- STACK: today first, then previous days, newest to oldest -->
+  <div id="v-stack" class="panel on">
+    <div class="stage" id="stage">
+      <div class="card" id="stackCard"></div>
+    </div>
+  </div>
+
+  <!-- WORLD TALLY -->
+  <div id="v-world" class="panel">
+    <section class="block">
+      <div class="kicker">World tally · shared across devices</div>
+      <h2 id="wTitle">Today's world vote</h2>
+      <div id="wOut"><p class="note">Loading…</p></div>
+      <div class="row" style="margin-top:10px"><button class="ghost" id="wRefresh">Refresh</button><span class="note" id="wNote"></span></div>
+      <p class="note" style="margin-top:12px">How it works: when you answer, one anonymous +1 is added to your choice's public counter (the first answer per day on this device counts). No account, no name, no text leaves your device. Public counters can't be undone and could be gamed, so treat this as a pulse, not an official poll.</p>
+    </section>
+  </div>
+
+  <!-- YOU: magazine of answers + this-device / weekly / monthly -->
+  <div id="v-you" class="panel">
+    <h2>You</h2>
+    <div id="youMag" class="mag"></div>
+    <section class="block" id="v-results" style="margin-top:18px">
+      <div class="kicker">This device · today</div>
+      <h3>Analytics on this device</h3>
+      <div id="res"></div>
+    </section>
+    <section class="block" id="v-weekly">
+      <div class="kicker">Weekly Highlight · this device</div>
+      <h3>Last 7 days</h3>
+      <div id="wk"></div>
+    </section>
+    <section class="block" id="v-monthly">
+      <div class="kicker">Monthly Impact Report · this device</div>
+      <h3 id="moTitle"></h3>
+      <div id="mo"></div>
+      <div class="row noprint" style="margin-top:12px"><button class="gold" id="printMo">Export printable page</button></div>
+    </section>
+  </div>
+
+  <!-- ASK: suggest a question + community vote -->
+  <div id="v-ask" class="panel">
+    <h2>Ask the world</h2>
+    <p class="lede">Suggest tomorrow's question. It is saved on this device and added to Community Vote. Nothing is posted automatically.</p>
+    <section class="block">
+      <div class="kicker">Suggest the next question</div>
+      <label class="lb" for="sugg">What question would you like to ask the world tomorrow?</label>
+      <textarea id="sugg" class="sz-input" placeholder="Write a question for everyone…"></textarea>
+      <div class="lb">How should people answer?</div>
+      <div class="types" id="types">
+        <button data-ty="yesno">Yes or No</button>
+        <button data-ty="tot">This or that</button>
+        <button data-ty="mc" class="on">Pick one</button>
+        <button data-ty="scale">1 to 10</button>
+        <button data-ty="fill">Fill in the blank</button>
+        <button data-ty="open">Open answer</button>
+      </div>
+      <div id="suggOptsWrap" class="hidden">
+        <label class="lb" for="suggOpts">Choices (comma-separated)</label>
+        <input id="suggOpts" class="sz-input" placeholder="Coffee, Tea">
+      </div>
+      <div class="row" style="margin-top:10px"><button class="gold" id="addSugg">Suggest it</button><span class="note" id="suggMsg"></span></div>
+    </section>
+    <section class="block" id="v-community">
+      <div class="kicker">Community Vote · this device</div>
+      <h3>Submitted questions</h3>
+      <p class="note">Up-vote the suggestions you'd most like to see asked. Votes are counted on this device only.</p>
+      <ul class="list" id="cv"></ul>
+    </section>
+  </div>
+
+  <!-- MORE: settings, install, bank, all 30, my files, daily summary -->
+  <div id="v-more" class="panel">
+    <div id="moreHome">
+      <h2>More</h2>
+      <p class="lede">Every tool from the live app is here — just rearranged. Nothing was taken out.</p>
+
+      <section class="block">
+        <div class="kicker">Look and feel</div>
+        <h3>Theme</h3>
+        <p class="note">Quiet is the new default for this preview only. Dark, Light, Neon and Calm are still here. Quiet is stored just for this preview, so it won't change the theme on your other W³ apps.</p>
+        <div class="themes" id="themes" aria-label="Theme">
+          <button data-t="quiet">Quiet</button>
+          <button data-t="dark">Dark</button>
+          <button data-t="light">Light</button>
+          <button data-t="neon">Neon</button>
+          <button data-t="calm">Calm</button>
+        </div>
+        <div class="settings" id="settings"><label><input type="checkbox" id="secToggle" checked> Section colors</label></div>
+      </section>
+
+      <section class="block">
+        <div class="kicker">Install</div>
+        <h3>Add to Home Screen</h3>
+        <p class="note">The install button adds the live People's Pulse app (not this preview), so your home-screen icon stays on the published app.</p>
+        <div class="inst hidden" id="inst"><span class="note" id="instTxt">Install The People's Pulse on your home screen — works offline.</span><button class="gold" id="instBtn" style="padding:9px 12px;white-space:nowrap;font-size:13px">Add to Home Screen</button></div>
+        <p class="note" id="dayPill" style="margin-top:8px"></p>
+      </section>
+
+      <section class="block">
+        <div class="kicker">Library and proof</div>
+        <h3>Bank, files, all 30</h3>
+        <div class="row" style="margin-top:8px">
+          <button class="ghost" data-more="v-bank">Bank</button>
+          <button class="ghost" data-more="v-files">My Files</button>
+          <button class="ghost" data-more="v-all">All 30 questions</button>
+        </div>
+      </section>
+
+      <section class="block">
+        <div class="kicker">Daily summary</div>
+        <h3>Copy a post for yourself</h3>
+        <p class="note">Builds a summary of this device's answers for today plus tomorrow's question, for you to copy and post yourself. Nothing is posted or sent automatically.</p>
+        <button class="gold" id="sumBtn">Daily summary</button>
+        <div id="sumOut"></div>
+      </section>
+
+      <footer class="authorship-stamp">W³ / What Matters³ by Jeff SHNaZLab · The People's Pulse first public 2026-10-21 (grown from the Daily Global Humanity Pulse) · <span style="display:inline-block;background:#2e9e5b;color:#fff;border-radius:999px;padding:1px 10px;font-weight:700">● green originality mark</span><br><small>Concept and direction: Jeff SHNaZLab; AI-assisted build. Questions marked “asked by SI/AI” were written by AI. This page is a layout preview; the live app is unchanged.</small></footer>
+    </div>
+
+    <div id="v-bank" class="hidden">
+      <p><button class="ghost" data-back-more>← More</button></p>
+      <section class="block">
+        <div class="kicker">Bank · Daily Pulse coins</div>
+        <h3>Your deposits</h3>
+        <p class="note">Every saved answer, suggestion and upload is a dated, SHA-256 hash-chained coin on this device.</p>
+        <div class="row"><button class="ghost" id="verify">Verify chain</button><span id="vres" class="note"></span></div>
+        <div id="bankEl" style="margin-top:10px"></div>
+      </section>
+    </div>
+
+    <div id="v-all" class="hidden">
+      <p><button class="ghost" data-back-more>← More</button></p>
+      <section class="block">
+        <div class="kicker">Question bank · 30</div>
+        <h3>All daily questions</h3>
+        <p class="note">One per day, rotating by date (days since 1970-01-01, modulo 30). Today's question is marked in gold. Upcoming days stay hidden in the stack until their date.</p>
+        <ol id="allq" style="padding-left:20px;line-height:1.5"></ol>
+      </section>
+    </div>
+
+    <div id="v-files" class="hidden">
+      <p><button class="ghost" data-back-more>← More</button></p>
+      <section class="block">
+        <div class="kicker">My Files · evidence library</div>
+        <h3>Evidence library</h3>
+        <p class="note">Public-safe items you can open; record lines show date (MT), status and SHA-256. Times are Mountain Time.</p>
+        <div class="fl-tools">
+          <input id="flQ" type="search" placeholder="Search title or hash">
+          <select id="flCat"><option value="">All categories</option></select>
+          <select id="flSt"><option value="">All statuses</option><option>VERIFIED</option><option>SECONDARY</option><option>CLAIMED</option><option>UNPROVEN</option></select>
+        </div>
+        <div id="flOut"><p class="note">Loading…</p></div>
+      </section>
+      <section class="block">
+        <div class="kicker">Add my file · this device only</div>
+        <h3>Add my file</h3>
+        <p class="note">Stored on this device (IndexedDB) and hashed into a Bank coin. Never uploaded.</p>
+        <input type="file" id="myFile" multiple>
+        <div id="myOut"></div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<nav class="dock" id="dock" aria-label="People's Pulse">
+  <button class="on" data-v="stack"><span class="ico">▣</span>Stack</button>
+  <button data-v="ask"><span class="ico">＋</span>Ask</button>
+  <button data-v="world"><span class="ico">🌍</span>World</button>
+  <button data-v="you"><span class="ico">●</span>You</button>
+  <button data-v="more"><span class="ico">☰</span>More</button>
+</nav>
+
+<script src="preview.js"></script>
+</body>
+</html>
